@@ -1,0 +1,35 @@
+$variables: (
+    'color-bacground': #fff,
+    'color-hovercol': #2196F3,
+    'color-textcol': #212121,
+    'color-primaty': #757575,
+    'color-backcol': #2F303A,
+    'color-archivecol': #F5F4FA,
+    'color-socialbg': rgba(255, 255, 255, 1),
+    'color-satisfaction': #AFB1B8,
+    'color-ym-py-rym-pym': rgb(175, 177, 184),
+    'color-o-la-la': rgb(33, 150, 243),
+    'color-fier': #f2f8f7,
+    'color-grinvich': rgba(255, 255, 255, 0.1),
+    'color-virtyal': rgba(0, 0, 0, 0.2),
+    'color-bryt': rgba(0, 0, 0, 0.1),
+    'color-raster': rgba(33, 33, 33, 0.2),
+    'color-asmer': rgba(0, 0, 0, 0.15),
+);
+
+    @function getColor($key) {
+        @return map-get($variables, $key)
+    }
+
+    $pixeli-one: 31px;
+    $pixeli-two: 26px;
+
+    $font-family-one: 'Raleway';
+
+    $paradiz: none;
+
+    $spacing-one: 0.03em;
+
+    $font-weight-one: 700;
+
+    $font-style-one: normal;
