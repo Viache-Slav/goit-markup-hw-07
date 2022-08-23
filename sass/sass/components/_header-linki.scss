@@ -1,0 +1,34 @@
+.header-link{
+    list-style-type: none;
+    display: flex;
+}
+.header-link-mail{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    transition: color 250ms;
+}
+.header-link-tel{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    transition: color 250ms;
+}
+.header-mail-icon{
+    width: 16px;
+    height: 12px;
+    transition: fill 250ms;
+}
+.header-tel-icon{
+    width: 10px;
+    height: 16px;
+    transition: fill 250ms;
+}
