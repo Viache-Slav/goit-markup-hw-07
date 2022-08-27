@@ -1,8 +1,12 @@
-.header-link{
+.header__link{
     list-style-type: none;
     display: flex;
 }
-.header-link-mail{
+.link__menu--nav{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.header__link--mail, .header__link--tel{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -12,23 +16,19 @@
     text-decoration: none;
     transition: color 250ms;
 }
-.header-link-tel{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
-    text-decoration: none;
-    transition: color 250ms;
-}
-.header-mail-icon{
+.header__mail--icon{
     width: 16px;
     height: 12px;
     transition: fill 250ms;
 }
-.header-tel-icon{
+.header__tel--icon{
     width: 10px;
     height: 16px;
     transition: fill 250ms;
+}
+.header__link--mail:hover,
+.header__link--tel:hover{
+    fill: #2196F3;
+    color: #2196F3;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

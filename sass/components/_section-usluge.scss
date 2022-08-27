@@ -1,38 +1,38 @@
 .title{
-    background-color: #2F303A;
+    background-color: getColor('color-backcol');
     min-height: 600px;
     margin: auto;
     max-width: 1600px;
     justify-content: center;
 }
-.photo-efect{
+.photo__efect{
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
         url("../images/img.bmp.jpg");
 }
-.title-text{
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
+.title__text{
+    font-style: $font-style-one;
+    font-weight: $font-weight-three;
+    font-size: $pixeli-fourteen;
+    line-height: $pixeli-seven;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: $spacing-two;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: getColor('color-bacground');
     padding-top: 200px;
-    margin: 0px auto;
+    margin: $pixeli-four auto;
 }
-.title-button{
-    background: #2196F3;
+.title__button{
+    background: getColor('color-hovercol');
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
+    font-style: $font-style-one;
+    font-weight: $font-weight-one;
+    font-size: $pixeli-eighteen;
+    line-height: $pixeli-Sixteen;
+    letter-spacing: $spacing-two;
+    color: getColor('color-bacground');
     text-decoration: none;
     border: none;
     padding: 0%;
@@ -41,6 +41,6 @@
     width: 200px;
     height: 50px;
 }
-.title-button:hover{
+.title__button:hover{
     cursor: pointer;
 }

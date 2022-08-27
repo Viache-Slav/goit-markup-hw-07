@@ -1,10 +1,10 @@
-.header-navigation{
+.header__navigation{
     display: flex;
     list-style-type: none;
     margin-top: 30px;
     margin-bottom: 0px;
 }
-.menu-nav{
+.menu__nav{
     margin-left: 23px;
     margin-right: 23px;
 }
@@ -14,7 +14,7 @@
     border-bottom: 4px solid #2196F3;
     height: 28px;
 }
-.header-navigation-agencies{
+.header__navigation--agencies, .header__navigation--contacts, .header__navigation--portfolio{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -24,32 +24,10 @@
     text-decoration: none;
     transition: color 250ms;
 }
-    .header-navigation-agencies:hover,
-    .header-navigation-portfolio:hover,
-    .header-navigation-contacts:hover,
-    .header-link-mail:hover,
-    .header-link-tel:hover{
+    .header__navigation--agencies:hover,
+    .header__navigation--portfolio:hover,
+    .header__navigation--contacts:hover{
         fill: #2196F3;
         color: #2196F3;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-.header-navigation-portfolio{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-    text-decoration: none;
-    transition: color 250ms;
-}
-.header-navigation-contacts{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-    text-decoration: none;
-    transition: color 250ms;
-}

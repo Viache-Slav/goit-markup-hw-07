@@ -3,7 +3,7 @@
     margin-top: 94px;
     margin-bottom: 94px;
 }
-.production-tytuł{
+.production__tytuł{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -14,17 +14,17 @@
     margin-top: 0px;
     margin-bottom: 50px;
 }
-.production-photo{
+.production__photo{
     margin: 0px;
     padding-inline-start: 0px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
-.production-box{
+.production__box{
     position: relative;
 }
-.production-box-text{
+.production__box--text{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;

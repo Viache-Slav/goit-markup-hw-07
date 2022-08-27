@@ -1,5 +1,6 @@
 $variables: (
     'color-bacground': #fff,
+    'color-jelly': #EEEEEE,
     'color-hovercol': #2196F3,
     'color-textcol': #212121,
     'color-primaty': #757575,
@@ -16,23 +17,67 @@ $variables: (
     'color-raster': rgba(33, 33, 33, 0.2),
     'color-asmer': rgba(0, 0, 0, 0.15),
 );
-
     @function getColor($key) {
         @return map-get($variables, $key)
     }
 
-    $pixeli-one: 31px;
-    $pixeli-two: 26px;
-    $pixeli-three:1200px;
+    $shadow-one: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+    $cubic-one: cubic-bezier(0.4, 0, 0.2, 1);
+
+    $pixeli-thirteen: -10px;
     $pixeli-four: 0px;
+    $pixeli-fifteen:10px;
+    $pixeli-nine: 14px;
+    $pixeli-eighteen: 16px;
+    $pixeli-twenty-three: 18px;
+    $pixeli-eight: 20px;
+    $pixeli-eleven: 24px;
+    $pixeli-two: 26px;
+    $pixeli-twenty-four: 28px;
+    $pixeli-Sixteen: 30px;
+    $pixeli-one: 31px;
+    $pixeli-twenty-two: 36px;
+    $pixeli-fourteen: 44px;
+    $pixeli-twenty-five: 49px;
+    $pixeli-seven: 60px;
+    $pixeli-twelve: 70px;
+    $pixeli-five: 252px;
+    $pixeli-twenty-one: 294px;
+    $pixeli-seventeen: 370px;
+    $pixeli-twenty: 400px;
+    $pixeli-nineteen: 404px;
+    $pixeli-three:1200px;
+
+    $border: 1px solid;
+
+    $msec-one: 250ms;
+
+    $procent-one: 0%;
+    $procent-two: 50%;
+    $procent-three: 100%;
+
+    $spacing-one: 0.03em;
+    $spacing-two: 0.06em;
+
+    $font-weight-one: 700;
+    $font-weight-two: 400;
+    $font-weight-four: 500;
+    $font-weight-three: 900;
 
     $font-family-one: 'Raleway';
     $font-family-two: 'Roboto', sans-serif;
 
-    $paradiz: none;
-
-    $spacing-one: 0.03em;
-
-    $font-weight-one: 700;
-
     $font-style-one: normal;
+    $display-one: flex;
+    $flex-one: column;
+    $direkt-one: left;
+    $direkt-two: center;
+    $dirkt-three: start;
+    $sizing-one: border-box;
+    $style: normal;
+    $paradiz: none;
+    $nonsens: wrap;
+    $consol: auto;
+
+    $justify-one: space-between;

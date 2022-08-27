@@ -2,7 +2,7 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.clients-tytul{
+.clients__tytul{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -13,7 +13,7 @@
     margin-top: 0px;
     margin-bottom: 50px;
 }
-.clients-box{
+.clients__box{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,7 +21,7 @@
     margin: 0px;
     box-sizing: content-box;
 }
-.clients-card{
+.clients__card{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,37 +34,37 @@
     box-sizing: border-box;
     transition: border 250ms;
 }
-.clients-card-icon1{
+.clients__card--icon1{
     width: 41px;
     height: 48px;
     transition: fill 250ms;
 }
-.clients-card-icon2{
+.clients__card--icon2{
     width: 40px;
     height: 53px;
     transition: fill 250ms;
 }
-.clients-card-icon3{
+.clients__card--icon3{
     width: 45px;
     height: 42px;
     transition: fill 250ms;
 }
-.clients-card-icon4{
+.clients__card--icon4{
     width: 85px;
     height: 42px;
     transition: fill 250ms;
 }
-.clients-card-icon5{
+.clients__card--icon5{
     width: 63px;
     height: 47px;
     transition: fill 250ms;
 }
-.clients-card-icon6{
+.clients__card--icon6{
     width: 94px;
     height: 45px;
     transition: fill 250ms;
 }
-.clients-card:hover{
+.clients__card:hover{
     border: 1px solid #2196F3;
     fill: rgb(33, 150, 243);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

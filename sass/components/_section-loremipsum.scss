@@ -6,7 +6,7 @@
     justify-content: space-between;
     margin-top: 94px;
 }
-.archive-box{
+.archive__box{
     width: 270px;
     height: 120px;
     background: #F5F4FA;
@@ -15,12 +15,12 @@
     justify-content: center;
     align-items: center;
 }
-.archive-box-icon{
+.archive__box--icon{
     width: 70px;
     height: 70px;
     justify-content: center;
 }
-.archive-title{
+.archive__title{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -29,7 +29,7 @@
     text-transform: uppercase;
     color: #212121;
 }
-.archive-text{
+.archive__text{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

@@ -1,85 +1,85 @@
-.box-sites{
-    margin: 0px;
-    list-style-type: none;
-    padding-inline-start: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.box__sites{
+    margin: $pixeli-four;
+    list-style-type: $paradiz;
+    padding-inline-start: $pixeli-four;
+    display: $display-one;
+    flex-wrap: $nonsens;
+    justify-content: $justify-one;
 }
 .sites{
-    width: 370px;
-    height: 404px;
-    border: 1px solid #EEEEEE;
-    margin-bottom: 30px;
-    transition: box-shadow 250ms;
+    width: $pixeli-seventeen;
+    height: $pixeli-nineteen;
+    border: $border getColor('color-jelly');
+    margin-bottom: $pixeli-Sixteen;
+    transition: box-shadow $msec-one;
 }
 .sites:hover{
     cursor: pointer;
-    border: 1px solid #EEEEEE;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border: $border getColor('color-jelly');
+    box-shadow: $shadow-one;
+    transition-timing-function: $cubic-one;
 }
-.sites-card{
-    width: 370px;
-    height: 404px;
-    margin: 0px;
+.sites__card{
+    width: $pixeli-seventeen;
+    height: $pixeli-nineteen;
+    margin: $pixeli-four;
 }
-.sites-card-img{
+.sites__card--img{
     position: relative;
-    width: 370px;
-    height: 294px;
-    margin-left: auto;
-    margin-right: auto;
+    width: $pixeli-seventeen;
+    height: $pixeli-twenty-one;
+    margin-left: $consol;
+    margin-right: $consol;
     overflow: hidden;
 }
-.sites-card-img:hover .img-overlay-hover {
+.sites__card--img:hover .img__overlay--hover {
     transform: translatey(0);
 }
-.img-overlay-hover{
+.img__overlay--hover{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #2196F3;
-    transform: translatey(100%);
-    transition: transform 250ms ease;
+    top: $pixeli-four;
+    left: $pixeli-four;
+    width: $procent-three;
+    height: $procent-three;
+    background-color: getColor('color-hovercol');
+    transform: translatey($procent-three);
+    transition: transform $msec-one ease;
 }
-.overlay-text{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+.overlay__text{
+    font-style: $font-style-one;
+    font-weight: $font-weight-two;
+    font-size: $pixeli-twenty-three;
+    line-height: $pixeli-twenty-four;
+    letter-spacing: $spacing-one;
+    color: getColor('color-bacground');
     display: inline-block;
     width: 301px;
     height: 196px;
-    margin-left: 24px;
-    margin-top: 49px;
+    margin-left: $pixeli-eleven;
+    margin-top: $pixeli-twenty-five;
 }
-.sites-card-title{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: #212121;
-    text-decoration: none;
-    margin-left: 24px;
+.sites__card--title{
+    font-style: $font-style-one;
+    font-weight: $font-weight-one;
+    font-size: $pixeli-twenty-three;
+    line-height: $pixeli-twenty-two;
+    letter-spacing: $spacing-two;
+    color: getColor('color-textcol');
+    text-decoration: $paradiz;
+    margin-left: $pixeli-eleven;
 }
-.sites-card-title:hover,
-.sites-card-type:hover {
+.sites__card--title:hover,
+.sites__card--type:hover {
     text-decoration: underline;
-    text-decoration-color: #2196F3;
+    text-decoration-color: getColor('color-hovercol');
 }
-.sites-card-type{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575;
-    text-decoration: none;
-    margin-left: 24px;
+.sites__card--type{
+    font-style: $font-style-one;
+    font-weight: $pixeli-twenty;
+    font-size: $pixeli-eighteen;
+    line-height: $pixeli-Sixteen;
+    letter-spacing: $spacing-one;
+    color: getColor('color-primaty');
+    text-decoration: $paradiz;
+    margin-left: $pixeli-eleven;
 }
