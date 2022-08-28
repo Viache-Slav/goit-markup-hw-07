@@ -3,13 +3,13 @@
     padding-bottom: 94px;
 }
 .clients__tytul{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+    font-style: $font-style-one;
+    font-weight: $font-weight-one;
+    font-size: $pixeli-twenty-two;
+    line-height: $pixeli-twenty-six;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+    letter-spacing: $spacing-one;
+    color: getColor('color-textcol');
     margin-top: 0px;
     margin-bottom: 50px;
 }
@@ -25,8 +25,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #AFB1B8;
-    fill: rgb(175, 177, 184);
+    border: 1px solid getColor('color-satisfaction');
+    fill: getColor('color-ym-py-rym-pym');
     border-radius: 4px;
     width: 170px;
     height: 92px;
@@ -65,7 +65,7 @@
     transition: fill 250ms;
 }
 .clients__card:hover{
-    border: 1px solid #2196F3;
-    fill: rgb(33, 150, 243);
+    border: 1px solid getColor('color-hovercol');
+    fill: getColor('color-o-la-la');
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

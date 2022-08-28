@@ -4,13 +4,13 @@
     margin-bottom: 94px;
 }
 .production__tytuł{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+    font-style: $font-style-one;
+    font-weight: $font-weight-one;
+    font-size: $pixeli-twenty-two;
+    line-height: $pixeli-twenty-six;
+    text-align: $direkt-two;
+    letter-spacing: $spacing-one;
+    color: getColor('color-textcol');
     margin-top: 0px;
     margin-bottom: 50px;
 }
@@ -25,15 +25,15 @@
     position: relative;
 }
 .production__box--text{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
+    font-style: $font-style-one;
+    font-weight: $font-weight-one;
+    font-size: $pixeli-nine;
+    line-height: $pixeli-eighteen;
+    text-align: $direkt-two;
+    letter-spacing: $spacing-one;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background: rgba(47, 48, 58, 0.8);
+    color: getColor('color-bacground');
+    background: getColor('color-rgb');
     position: absolute;
     width: 370px;
     height: 70px;

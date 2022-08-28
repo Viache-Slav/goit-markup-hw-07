@@ -16,6 +16,8 @@ $variables: (
     'color-bryt': rgba(0, 0, 0, 0.1),
     'color-raster': rgba(33, 33, 33, 0.2),
     'color-asmer': rgba(0, 0, 0, 0.15),
+    'color-rgb': rgba(47, 48, 58, 0.8),
+    'color-style':rgba(255, 255, 255, 0.3),
 );
     @function getColor($key) {
         @return map-get($variables, $key)
@@ -28,16 +30,20 @@ $variables: (
     $pixeli-thirteen: -10px;
     $pixeli-four: 0px;
     $pixeli-fifteen:10px;
+    $pixeli-twenty-seven: 12px;
     $pixeli-nine: 14px;
     $pixeli-eighteen: 16px;
     $pixeli-twenty-three: 18px;
+    $pixeli-six: 19px;
     $pixeli-eight: 20px;
+    $pixeli-twenty-eight: 23px;
     $pixeli-eleven: 24px;
     $pixeli-two: 26px;
     $pixeli-twenty-four: 28px;
     $pixeli-Sixteen: 30px;
     $pixeli-one: 31px;
     $pixeli-twenty-two: 36px;
+    $pixeli-twenty-six: 42px;
     $pixeli-fourteen: 44px;
     $pixeli-twenty-five: 49px;
     $pixeli-seven: 60px;
@@ -59,6 +65,8 @@ $variables: (
 
     $spacing-one: 0.03em;
     $spacing-two: 0.06em;
+    $spacing-four: 0.01em;
+    $spacing-three: 0.02em;
 
     $font-weight-one: 700;
     $font-weight-two: 400;

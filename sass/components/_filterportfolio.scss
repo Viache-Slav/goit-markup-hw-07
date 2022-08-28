@@ -10,24 +10,24 @@
     justify-content: space-between;
 }
 .filter__btn{
-    background-color: #F5F4FA;
+    background-color: getColor('color-archivecol');
     display: inline-block;
     padding: 6px 22px;
-    color: #212121;
+    color: getColor('color-textcol');
     cursor: pointer;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
+    font-style: $font-style-one;
+    font-weight: $font-weight-four;
+    font-size: $pixeli-eighteen;
+    line-height: $pixeli-two;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: $spacing-one;
     border-radius: 4px;
     border: none;
     transition: background-color 250ms, color 250ms, box-shadow 250ms;
 }
 .filter__btn:hover{
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: getColor('color-hovercol');
+    color: getColor('color-bacground');
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
